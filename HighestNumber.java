@@ -32,18 +32,32 @@ public class HighestNumber {
         // int highestNumber = numbers[0];
         boolean found = false;
 
-        // loooking thorugh all the inputs
-        for (int i = 0; i < length - 1; i++) {
-            // checking is the number maths with find number
-            if (numbers[i] + numbers[i + 1] == findNumber) {
-                // updating found index with matched index
-                found = true;
-                break;
+        // // loooking thorugh all the inputs
+        // for (int i = 0; i < length - 1; i++) {
+        // // checking is the number maths with find number
+        // if (numbers[i] + numbers[i + 1] == findNumber) {
+        // // updating found index with matched index
+        // found = true;
+        // break;
 
+        // // breaking the loop
+        // // break;
+        // }
+        // }
+
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < length; j++) {
+                // checking is the number maths with find number
+                if (numbers[i] + numbers[j] == findNumber) {
+                    // updating found index with matched index
+                    found = true;
+                    break;
+                }
                 // breaking the loop
                 // break;
             }
         }
+
         if (found) {
             System.out.println("found");
         } else {
