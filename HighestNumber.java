@@ -47,6 +47,7 @@ public class HighestNumber {
 
         for (int i = 0; i < length; i++) {
             for (int j = 0; j < length; j++) {
+                System.out.println(i + " - " + j); //
                 // checking is the number maths with find number
                 if (numbers[i] + numbers[j] == findNumber) {
                     // updating found index with matched index
