@@ -31,8 +31,9 @@ public class RecatangleCheck {
         // english
         // hindi
         // maths
+
         // obj
-        // ojj.average();
+        // ojj.average(); //
         // obj.total();
         // "in 10th class roll number is passed with toatal marks of 400";
 
